@@ -1,2 +1,4 @@
 # final-project1
-待续
+Kaggle Project
+Describe Your Dataset
+URL: https://www.kaggle.com/datasets/emmanuelfwerr/thyroid-disease-data/data
