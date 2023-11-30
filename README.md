@@ -6,7 +6,6 @@ URL: https://www.kaggle.com/datasets/emmanuelfwerr/thyroid-disease-data/data
 Task:
 
 환자의 정보(나이) 및 검사수치 데이터 등을 활용하여
-
 갑상선 질환에 대한 진단
 
 Datasets
