@@ -7,7 +7,8 @@ Task:
 
 환자의 정보(나이) 및 검사수치 데이터 등을 활용하여 갑상선 질환에 대한 진단
 
-Datasets
+
+Datasets:
 
 thyroidDf 데이터세트는 UCI Machine Learning Repository에서 제공한 갑상선 질환 데이터세트를 조정하여 생성
 
@@ -79,14 +80,14 @@ TBG_measured - TBG가 혈액에서 측정되었는지 여부 (bool)
 
 TBG - 실험실 작업에서 나온 혈액 내 TBG 수준 (부동)
 
-
 추천_소스 - (str)
 
 target - 갑상선항진증 의료 진단 (str)
 
 Patient_id - 환자의 고유 ID (str)
 
-Features(x)
+
+Features(x):
 
 심플한 모형 구성을 위해 4개의 속성만 사용함
 
@@ -98,7 +99,8 @@ TSH - 실험실 작업에서 나온 혈액 내 TSH 수준 (float)
 
 TT4 - 실험실 작업으로 인한 혈액 내 TT4 수준 (float)
 
-Target(y)
+
+Target(y):
 
 '-' 상태 없음, 'hyperthyroid' (갑상선항진증 상태), 'hypothyroid' (갑상선 기능 저하증), 3가지 형태로 분류를 진행함
 
@@ -107,6 +109,7 @@ Target(y)
 진단 '-'은 설명이 필요한 상태가 없음을 나타냄
 
 진단 "X|Y" 형식은 "X와 일치하지만 Y일 가능성이 더 높다"로 해석됨
+
 
 Letter Diagnosis
 
